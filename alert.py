@@ -1,11 +1,11 @@
 from twilio.rest import Client
 
 def sendTwilioMessage(message):
-    account_sid_part1 = 'ACf349f16d4c1d424'
-    account_sid_part2 = '53b115c4f78804831'
+    account_sid_part1 = ''
+    account_sid_part2 = ''
     account_sid = account_sid_part1 + account_sid_part2
-    auth_token_part1 = 'b522abf69803a697'
-    auth_token_part2 = 'dc4b8ba5038f5587'
+    auth_token_part1 = ''
+    auth_token_part2 = ''
     auth_token = auth_token_part1 + auth_token_part2
     print(f"auth_token: {auth_token}")
     fromNumber= '+16363227054'
